@@ -1,0 +1,13 @@
+### IntelliJ IDEA ###
+.idea
+.idea/
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
+
+/out/*.*
+
+# Log file
+*.log
