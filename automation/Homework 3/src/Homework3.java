@@ -56,7 +56,7 @@ public class Homework3 {
         System.out.println("-----------------------Task3-------------------------");
         System.out.println("Type year to check:");
         year = scanner1.nextShort();
-        leapYear = year % 4 == 0;
+        leapYear = year % 4 == 0; //&& year % 100 == 0 && year % 400 == 0; look at this later because some leap years need to be / by 100 and 400 as well
         System.out.println(year + " is leap year: " + leapYear);
 
         //Task 4
