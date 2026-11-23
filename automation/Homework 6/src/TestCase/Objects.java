@@ -26,6 +26,8 @@ public class Objects {
         System.out.println(second.describe());
         System.out.println(third.describe());
 
+        System.out.println(first.getTestCaseCounterInt());
+
         //negative tests
         //first.setStatus("123");
         //System.out.println(first.getTestCaseStatus());
@@ -38,6 +40,8 @@ public class Objects {
 
         first.setStatus("skipped");
         System.out.println(first.getTestCaseStatus());
+
+
 
 
 
