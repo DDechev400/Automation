@@ -21,6 +21,10 @@ public class TestCase {
 
     }
 
+    public int getTestCaseCounterInt() {
+        return testCaseCounter;
+    }
+
     public String getTestCaseStatus() {
         return "Test case with ID: " + id + " and Title: " + title + " is with status " + status + " and ms: " + ms;
     }
